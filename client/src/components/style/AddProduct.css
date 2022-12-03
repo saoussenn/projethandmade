@@ -1,0 +1,28 @@
+.modal-formulaire{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#close-btn{
+    position: absolute;
+    top:20px;
+    right:40px;
+    cursor: pointer;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 25vw;
+    height: 50vh;
+    margin: 15vh auto;
+
+
+
+}
+.formulaire input {
+    padding :10px
+}

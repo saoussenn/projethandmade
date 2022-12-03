@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding :10px
+}
+
+
+.btn_modal{
+    position: absolute;
+    top:20px;
+    right:40px;
+    cursor: pointer;
+}
+.container-fluid input{
+background-color: aliceblue;
+}
+
+

@@ -1,0 +1,68 @@
+.modal-container{
+    width:100;
+
+}
+.modalx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    
+    border:2px solid black;
+    
+}
+.overlay{
+    position: absolute;
+    width:100%;
+    height:100vh;
+}
+.modal-content{
+    width:75%;
+    border-radius: 30px;
+    
+}
+.header-modal{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.header-modal h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.header-modal button{
+    background-color: transparent !important;
+    border-radius: 30px;
+    font-size: 14px;
+    
+}
+.btn-close{
+    margin:0 !important;
+}
+
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    
+   
+}
+.formInputs input{
+    border-radius: 7px;
+    border: 1px solid lightgray ;
+    background-color: transparent;
+    height: 7vh;
+ 
+
+}
+.loginBtnn{
+    width:100%;
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    height:6vh;
+}
